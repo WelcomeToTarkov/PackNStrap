@@ -1,0 +1,5875 @@
+{
+	"f8bd9b5115b176f3343c15ab": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/belt_fannypack.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"RigLayoutName": "",
+			"Grids": [
+				{
+					"_id": "belt_fannypackgrid",
+					"_name": "main",
+					"_parent": "f8bd9b5115b176f3343c15ab",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 2,
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Fanny Pack",
+				"shortName": "Fanny Pack",
+				"description": "A fanny pack that can be worn at the waist and carry a moderate amount of items."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14500,
+		"handbookPriceRoubles": 10250,
+		"addtoTraders": true,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b8c4623858c113c6b723cb00": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/aerocorppistoleercombatbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "dd2bb30894b0c372396a7b9e",
+					"_name": "GridView (1)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "569039bad6e76815ef5e970e",
+					"_name": "GridView (2)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "151c5efff8f50e44df9e81f8",
+					"_name": "GridView (3)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "83819f50857cbf56ce768010",
+					"_name": "GridView (4)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "b3b6720efd1bdb0544b4cc03",
+					"_name": "GridView (5)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2c42577a9b99b540f07e961d",
+					"_name": "GridView (6)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5c9105caabc6c5a37a0ebaf0",
+					"_name": "GridView (7)",
+					"_parent": "b8c4623858c113c6b723cb00",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "aero_p"
+		},
+		"locales": {
+			"en": {
+				"name": "Aero Corp Pistoleer Combat Belt",
+				"shortName": "Pistoleer",
+				"description": "A lightweight combat belt with moderate carrying capacity manufactured by Aero Corporation."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 13200,
+		"handbookPriceRoubles": 9700,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 10480,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8a7a8c543eb5f37e45953549": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/citadelgeneralpurposeutilitybelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "5a524bf1d42938994b4542b1",
+					"_name": "GridView (1)",
+					"_parent": "citadel_gpub",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "c1f77bb2f24e3c7e4ea7294a",
+					"_name": "GridView (2)",
+					"_parent": "citadel_gpub",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "72ce302a409422c5e0a05985",
+					"_name": "GridView (3)",
+					"_parent": "citadel_gpub",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ca7082de567e6935a2e2ef53",
+					"_name": "GridView (4)",
+					"_parent": "citadel_gpub",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "citadel_gpub"
+		},
+		"locales": {
+			"en": {
+				"name": "Citadel Industries General Purpose Utility Belt",
+				"shortName": "Utility",
+				"description": "A general purpose tactical belt manufactured by Citadel Industries."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14000,
+		"handbookPriceRoubles": 11000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 13400,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"adeebd551b9ad402069733ce": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/pointmanassaultbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "2ae5cf04d6b5a326ed867fd6",
+					"_name": "GridView (1)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e54e97544208323965c52316",
+					"_name": "GridView (2)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "988463ea4217477057218f87",
+					"_name": "GridView (3)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1cab109a96dd4fe29af18d9d",
+					"_name": "GridView (4)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "09abae39597b1183c92b083e",
+					"_name": "GridView (5)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3157912591596a6b026a00dd",
+					"_name": "GridView (6)",
+					"_parent": "pointman",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "pointman"
+		},
+		"locales": {
+			"en": {
+				"name": "Combat Solutions Pointman Assault Belt",
+				"shortName": "Pointman",
+				"description": "A tactical belt with several pistol magazine pouches and a dump pouch manufactured by Combat Solutions."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 24500,
+		"handbookPriceRoubles": 17500,
+		"addtoTraders": true,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 18700,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8226ab90fb7f45d8cfa7fc3d": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/polytechorionreconbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "91df979afa0c8c30086d22e8",
+					"_name": "GridView (1)",
+					"_parent": "orion",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "aa4e8efbd2b5c3e30d03a63b",
+					"_name": "GridView (2)",
+					"_parent": "orion",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "orion"
+		},
+		"locales": {
+			"en": {
+				"name": "Polytech Orion Recon Belt",
+				"shortName": "Orion",
+				"description": "A lightweight tactical recon belt manufactured by Polytech Industries."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 6500,
+		"handbookPriceRoubles": 5000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5400,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"942b6046d454de2606e23725": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/lh63russianfederationdutybelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "e204d5208c7a3a8f5ca5668c",
+					"_name": "GridView (1)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "0d0f12441d6841a84641730a",
+					"_name": "GridView (2)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7a153a7d284470eefbff3bfe",
+					"_name": "GridView (3)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ad60323bb21b466cdffc5282",
+					"_name": "GridView (4)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "64e520bf7443310e1a5c07a2",
+					"_name": "GridView (5)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "f4ef00d91bbe0f094285ab26",
+					"_name": "GridView (6)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ad0a5575860421d647a90138",
+					"_name": "GridView (7)",
+					"_parent": "lh63",
+					"_props": {
+						"cellsH": "3",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "lh63"
+		},
+		"locales": {
+			"en": {
+				"name": "LH-63 Duty Belt",
+				"shortName": "LH-63",
+				"description": "A Russian Federation duty belt that can carry a moderate amount of gear."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16899,
+		"handbookPriceRoubles": 15500,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 16200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c473791d93ca36cb24e17ff9": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/rebel9c.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7963c5d31cb89db46c35373f",
+					"_name": "GridView (1)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1586268416bc0aa73a6693ff",
+					"_name": "GridView (2)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "b512a8ca9b8fb4591cfa1e90",
+					"_name": "GridView (3)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a3e7d0dc81ce2a7f4f2a4557",
+					"_name": "GridView (4)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "be5f5d487b29e5e5a777bb6c",
+					"_name": "GridView (5)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "rebel9"
+		},
+		"locales": {
+			"en": {
+				"name": "Rebel-9 Assaulter Belt (Camo)",
+				"shortName": "Rebel-9",
+				"description": "A mid-tier tactical belt that features a dump pouch. Camo variant."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18500,
+		"handbookPriceRoubles": 17000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 145,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f9a169d09b52ea7b50872357": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/rebel9g.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7963c5d31cb89db46c35373f",
+					"_name": "GridView (1)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1586268416bc0aa73a6693ff",
+					"_name": "GridView (2)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "b512a8ca9b8fb4591cfa1e90",
+					"_name": "GridView (3)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a3e7d0dc81ce2a7f4f2a4557",
+					"_name": "GridView (4)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "be5f5d487b29e5e5a777bb6c",
+					"_name": "GridView (5)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "rebel9"
+		},
+		"locales": {
+			"en": {
+				"name": "Rebel-9 Assaulter Belt (OD)",
+				"shortName": "Rebel-9",
+				"description": "A mid-tier tactical belt that features a dump pouch. Olive drab variant."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18500,
+		"handbookPriceRoubles": 17000,
+		"addtoTraders": true,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 17500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"aa6b05b680b18ae6fe7d8ad9": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/assaullterbelt3.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "f939ba90138ca1f3048ef223",
+					"_name": "GridView (1)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "358a80f74ff20a0833a63419",
+					"_name": "GridView (2)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "bd4d822f1dce7d469969b9c2",
+					"_name": "GridView (3)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ed8a4b86e833e517adae09eb",
+					"_name": "GridView (4)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5f2d1ea46046931bd396b1ab",
+					"_name": "GridView (5)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "assaulter"
+		},
+		"locales": {
+			"en": {
+				"name": "Bison Assaulter Belt",
+				"shortName": "Assaulter",
+				"description": "A Ferro Bison assaulter belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 25899,
+		"handbookPriceRoubles": 19800,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"07e5648876d6b14569c0c1c7": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/medicbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "250f04fdee37643a5a4a121e",
+					"_name": "GridView (1)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "164c332484a11b902925f741",
+					"_name": "GridView (2)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ccb1dc669d1cf01a3c683f67",
+					"_name": "GridView (3)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "409b9f573ad15ad7d5fe9c09",
+					"_name": "GridView (4)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5264a23cf2e2b0ef3fdfed2d",
+					"_name": "GridView (5)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "fe7d0abbf615c51af3fb0346",
+					"_name": "GridView (6)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3a944002303c50586618ab60",
+					"_name": "GridView (7)",
+					"_parent": "07e5648876d6b14569c0c1c7",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "medicbelt"
+		},
+		"locales": {
+			"en": {
+				"name": "Medic Belt",
+				"shortName": "MARCH",
+				"description": "A Ferro Bison assaulter belt configured as a MARCH medic belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29500,
+		"handbookPriceRoubles": 23400,
+		"addtoTraders": true,
+		"traderId": "THERAPIST",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24400,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"37e439bcf48f216b37dd40de": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrbgrenadierc.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "e6e87b45af02e7fc852f91bc",
+					"_name": "GridView (1)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e5e5eb9e80c2777e9ce3c57",
+					"_name": "GridView (2)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d2808e7469726c327e91a1ea",
+					"_name": "GridView (3)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "40d0e3ed607cf45a7ca24863",
+					"_name": "GridView (4)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e4acd54583e1cae848545ce",
+					"_name": "GridView (5)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "bb2dafb373435c3b41445de9",
+					"_name": "GridView (6)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "579a8882d1e4c2a78111472d",
+					"_name": "GridView (7)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "64c44ff86ea9799dbe2af133",
+					"_name": "GridView (8)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e336090770edc9ef70c5969",
+					"_name": "GridView (9)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e6293ae6091740ac0dbe072c",
+					"_name": "GridView (10)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "mrbgrenadier"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB Grenadier Belt",
+				"shortName": "MRB Grenadier",
+				"description": "A Crye Precision MRB belt set up for a grenadier."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26780,
+		"handbookPriceRoubles": 21230,
+		"addtoTraders": true,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 245,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b70d97cc28f80b524ee4ef2f": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrbvogb.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "c91589697542c51dfd8a93cc",
+					"_name": "GridView (1)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e8a661975b583517031d3f56",
+					"_name": "GridView (2)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "717feecbe954ecb34f8b12dc",
+					"_name": "GridView (3)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "715977877ba84ef2e672b8db",
+					"_name": "GridView (4)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "dbb66362efe7288dd25ba45d",
+					"_name": "GridView (5)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9e1d4026cefe66869e91a2b0",
+					"_name": "GridView (6)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7537752dcf188718fbe319fb",
+					"_name": "GridView (7)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3487bb90473e9410bddf1695",
+					"_name": "GridView (8)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "60c2958fb764de1697ae769e",
+					"_name": "GridView (9)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "fa1ca2884c271092e4109d90",
+					"_name": "GridView (10)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e0371bd839b8363376922fa",
+					"_name": "GridView (11)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "c82ac45183d4c965502a9e7f",
+					"_name": "GridView (12)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "vog"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB VOG Grenadier Belt",
+				"shortName": "VOG Grenadier",
+				"description": "A Crye Precision MRB belt set up for a VOG grenadier."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39890,
+		"handbookPriceRoubles": 33400,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 35500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"60bb3baf34736c0636250b1a": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/grenadierbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "12db88cd94bc4c59c7eec95e",
+					"_name": "GridView (1)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d5ee1bf6a2e7e8d6676c039f",
+					"_name": "GridView (2)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "437edf261ced8391e82e0a04",
+					"_name": "GridView (3)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "29eeefc687fbf5117d793873",
+					"_name": "GridView (4)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "6fba2e3ae7d134e88d410c32",
+					"_name": "GridView (5)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a9eff0fb117231f67dc86a53",
+					"_name": "GridView (6)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "57598f92698ae41d1641206d",
+					"_name": "GridView (7)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "97caaee88e27fdb3fcf05352",
+					"_name": "GridView (8)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "05f241a65a7aed8ac2cb3c77",
+					"_name": "GridView (9)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a5bb697de1cad1daa2e5cdfc",
+					"_name": "GridView (10)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "162424f029a8406fa84d8ab9",
+					"_name": "GridView (11)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3824f22e3cfb59ccc3001df3",
+					"_name": "GridView (12)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9453fd64766e280619f583ee",
+					"_name": "GridView (13)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d3b60fd1b9ca4291add4c6a1",
+					"_name": "GridView (14)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "grenadier"
+		},
+		"locales": {
+			"en": {
+				"name": "Grenadier Belt",
+				"shortName": "Grenadier",
+				"description": "A Ferro Bison assaulter belt with a Tactical Tailor Grenadier bandolier."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 37880,
+		"handbookPriceRoubles": 30400,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34440,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e4c26a37cb69e8c50c61202f": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/assaultermedic.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "4a68f4f59c85aa71b92d7049",
+					"_name": "GridView (1)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9d4d1855ddfe97558559e4fe",
+					"_name": "GridView (2)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e4fd59577d482d92a4bb3927",
+					"_name": "GridView (3)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5470d8fb9739140a474de427",
+					"_name": "GridView (4)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "09c40c8ba718271ef266a474",
+					"_name": "GridView (5)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d4b4fb2956b3a5667959d111",
+					"_name": "GridView (6)",
+					"_parent": "e4c26a37cb69e8c50c61202f",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "assaultermedic"
+		},
+		"locales": {
+			"en": {
+				"name": "MARCH Assaulter Belt",
+				"shortName": "MARCH Assaulter",
+				"description": "A Ferro Bison assaulter belt configured as a MARCH medic belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 33240,
+		"handbookPriceRoubles": 27800,
+		"addtoTraders": true,
+		"traderId": "THERAPIST",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 28990,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0a3e20a6db18234f8d6f218e": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrblmga.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7661ef69d8b7e3201abf0ef0",
+					"_name": "GridView (1)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "17b9b1f8eb02003d45309a95",
+					"_name": "GridView (2)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e524d0a492bbda60ffa22438",
+					"_name": "GridView (3)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "8dd0c7140af28464d3d7a541",
+					"_name": "GridView (4)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "cfb0111344fb167d100bbd40",
+					"_name": "GridView (5)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "mrblmg"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB LMG Belt",
+				"shortName": "MRB LMG",
+				"description": "A Crye Precision MRB belt configured as an LMG gunners belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44500,
+		"handbookPriceRoubles": 39200,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 40200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f80bdf274d83869039405ef8": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/competitionbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "e27e823a90f4da63f747f3c3",
+					"_name": "GridView (1)",
+					"_parent": "f80bdf274d83869039405ef8",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a93284929bec6aeca9960d83",
+					"_name": "GridView (2)",
+					"_parent": "f80bdf274d83869039405ef8",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "51e9ad8e36eade10197d7778",
+					"_name": "GridView (3)",
+					"_parent": "f80bdf274d83869039405ef8",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1cb85dc4fd45f0ae69013c39",
+					"_name": "GridView (4)",
+					"_parent": "f80bdf274d83869039405ef8",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9515cbf9fbf721cb9f8c68c3",
+					"_name": "GridView (5)",
+					"_parent": "f80bdf274d83869039405ef8",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "competitionbelt"
+		},
+		"locales": {
+			"en": {
+				"name": "Competitor Belt",
+				"shortName": "Comp Belt",
+				"description": "A practical pistol shooting competition belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 12300,
+		"handbookPriceRoubles": 8800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 9340,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"63ac5146862634e578bcb0c9": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/riflemanbeltbison.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "4488312dca934b4716cabbef",
+					"_name": "GridView (1)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "b6e905629d75714971814be1",
+					"_name": "GridView (2)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "6ae20a3b575f5ee9c892816a",
+					"_name": "GridView (3)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "791885b3e5121ed31fbbe520",
+					"_name": "GridView (4)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "62deac364d091a1e4f600eac",
+					"_name": "GridView (5)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "722462f1aa1707935715711f",
+					"_name": "GridView (6)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "riflemanbison"
+		},
+		"locales": {
+			"en": {
+				"name": "Bison Rifleman Belt",
+				"shortName": "Rifleman",
+				"description": "A Ferro Bison rifleman belt."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14300,
+		"handbookPriceRoubles": 11230,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 13200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"322eb5a82749d49003e82d98": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/kitteddangler.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "73785790658826b6f77adcb7",
+					"_name": "GridView (1)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7bf13808e28d5014b2799664",
+					"_name": "GridView (2)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "10ae3344e5bbe8e0b8dd0fc6",
+					"_name": "GridView (3)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a6c2eedddf477aeb425b093b",
+					"_name": "GridView (4)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "4cb1379e959764d261c47948",
+					"_name": "GridView (5)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"f8bd9b5115b176f3343c15ab",
+									"b8c4623858c113c6b723cb00",
+									"8a7a8c543eb5f37e45953549",
+									"adeebd551b9ad402069733ce",
+									"8226ab90fb7f45d8cfa7fc3d",
+									"942b6046d454de2606e23725",
+									"c473791d93ca36cb24e17ff9",
+									"f9a169d09b52ea7b50872357",
+									"aa6b05b680b18ae6fe7d8ad9",
+									"07e5648876d6b14569c0c1c7",
+									"37e439bcf48f216b37dd40de",
+									"b70d97cc28f80b524ee4ef2f",
+									"60bb3baf34736c0636250b1a",
+									"e4c26a37cb69e8c50c61202f",
+									"0a3e20a6db18234f8d6f218e",
+									"f80bdf274d83869039405ef8",
+									"63ac5146862634e578bcb0c9",
+									"322eb5a82749d49003e82d98"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "dangler"
+		},
+		"locales": {
+			"en": {
+				"name": "Ferro Concepts Dangler",
+				"shortName": "Dangler",
+				"description": "A Ferro Concepts Dangler Pouch."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 7900,
+		"handbookPriceRoubles": 5500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 65,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}
