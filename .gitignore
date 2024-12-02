@@ -1,0 +1,5 @@
+# Ignore Visual Studio temporary files, build results, and build directories
+.vs/
+build/
+.idea/
+.user/
