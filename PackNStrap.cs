@@ -14,11 +14,10 @@ using Comfort.Common;
 
 namespace PackNStrap
 {
-    [BepInPlugin("com.aaaWTT-PacknStrap.Core", "WTT-PackNStrap", "1.0.4")]
+    [BepInPlugin("com.aaaWTT-PacknStrap.Core", "WTT-PackNStrap", "1.0.9")]
 
     internal class PackNStrap : BaseUnityPlugin
     {
-
         public static PackNStrap Instance;
         private static GameWorld _gameWorld;
         public static Player Player;
@@ -90,7 +89,6 @@ namespace PackNStrap
             BindAvailableSlots = BindAvailableSlots ?? typeof(Inventory).GetField("BindAvailableSlotsExtended");
             BindAvailableSlots?.SetValue(BindAvailableSlots, NewBindAvailableSlots);
 
-
             TraderServicesEligibleSlots = TraderServicesEligibleSlots ?? typeof(InventoryEquipment).GetField("TraderServicesEligibleSlots");
             TraderServicesEligibleSlots?.SetValue(TraderServicesEligibleSlots, NewTraderServicesEligibleSlots);
 
@@ -99,6 +97,8 @@ namespace PackNStrap
             new GetPrioritizedGridsForUnloadedObjectPatch().Enable();
             new ContainerSlotsPatch().Enable();
             new PaymentSlotsPatch().Enable();
+            new GrenadeThrowingSlotsPatch().Enable();
+            new MergeContainerWithChildrenPatch().Enable();
             new UnloadWeaponPatch().Enable();
         }
 
