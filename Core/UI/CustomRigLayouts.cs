@@ -69,22 +69,10 @@ namespace PackNStrap.Core.UI
 
         private static void AddEntryToDictionary(string key, object value)
         {
-            Type type = typeof(CacheResourcesPopAbstractClass);
-            FieldInfo dictionaryField = type.GetField("dictionary_0", BindingFlags.NonPublic | BindingFlags.Static);
-            if (dictionaryField != null)
-            {
-                Dictionary<string, object> dictionary = (Dictionary<string, object>)dictionaryField.GetValue(null);
-                if (dictionary != null)
-                {
-                    if (!dictionary.ContainsKey(key))
-                    {
-                        dictionary.Add(key, value);
+            CacheResourcesPopAbstractClass.dictionary_0.Add(key, value);
 #if DEBUG
-                        Console.WriteLine($"Successfully added new rig layout {key} to resources dictionary!");
+            Console.WriteLine($"Successfully added new rig layout {key} to resources dictionary!");
 #endif
-                    }
-                }
-            }
         }
     }
 }

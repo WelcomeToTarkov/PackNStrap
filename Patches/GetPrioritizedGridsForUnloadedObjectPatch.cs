@@ -5,6 +5,7 @@ using System.Reflection;
 using EFT;
 using EFT.InventoryLogic;
 using HarmonyLib;
+using PackNStrap.Core.Items;
 using SPT.Reflection.Patching;
 
 namespace PackNStrap.Patches;
@@ -13,7 +14,7 @@ internal class GetPrioritizedGridsForUnloadedObjectPatch : ModulePatch
 {
     protected override MethodBase GetTargetMethod()
     {
-        return AccessTools.Method(typeof(GClass3097), nameof(GClass3097.GetPrioritizedGridsForUnloadedObject));
+        return AccessTools.Method(typeof(GClass3168), nameof(GClass3168.GetPrioritizedGridsForUnloadedObject));
     }
 
     [PatchPrefix]
@@ -29,7 +30,7 @@ internal class GetPrioritizedGridsForUnloadedObjectPatch : ModulePatch
         VestItemClass tacticalVestItem = tacticalVestSlot?.ContainedItem as VestItemClass;
         PocketsItemClass pocketsItem = pocketsSlot?.ContainedItem as PocketsItemClass;
         BackpackItemClass backpackItem = backpackSlot?.ContainedItem as BackpackItemClass;
-        VestItemClass armbandItem = armbandSlot?.ContainedItem as VestItemClass;
+        CustomBeltItemClass armbandItem = armbandSlot?.ContainedItem as CustomBeltItemClass;
 
         // Retrieve grids or empty arrays if items are null
         StashGridClass[] tacticalVestGrids = tacticalVestItem?.Grids ?? Array.Empty<StashGridClass>();
@@ -38,7 +39,7 @@ internal class GetPrioritizedGridsForUnloadedObjectPatch : ModulePatch
         StashGridClass[] armbandGrids = armbandItem?.Grids ?? Array.Empty<StashGridClass>();
 
         // Find all instances of magDumpPouch
-        List<SimpleContainerItemClass> magDumpPouches = Helpers.Helpers.GetMagDumpPouches(equipment, backpackIncluded);
+        List<SimpleContainerItemClass> magDumpPouches = Helpers.Common.GetMagDumpPouches(equipment, backpackIncluded);
 
         // Retrieve grids for all found magDumpPouches that can accept items
         List<StashGridClass> magDumpPouchGrids = magDumpPouches

@@ -10,6 +10,7 @@ using EFT.UI;
 using EFT;
 using SPT.Reflection.Utils;
 using Comfort.Common;
+using PackNStrap.Helpers;
 
 
 namespace PackNStrap
@@ -81,7 +82,7 @@ namespace PackNStrap
         internal void Awake()
         {
             Instance = this;
-
+            NewTemplateIdToObjectIdClass.AddNewTemplateIdToObjectMapping(NewTemplateIdToObjectIdClass.CustomMappings);
             #region Proper Belt Fast Access
             FastAccessSlots = FastAccessSlots ?? typeof(Inventory).GetField("FastAccessSlots");
             FastAccessSlots?.SetValue(FastAccessSlots, NewFastAccessSlots);

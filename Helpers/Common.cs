@@ -4,10 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using EFT.InventoryLogic;
+using PackNStrap.Core.Items;
 
 namespace PackNStrap.Helpers;
 
-public abstract class Helpers
+public abstract class Common
 {
     public static List<SimpleContainerItemClass> GetMagDumpPouches(InventoryEquipment equipment, bool backpackIncluded)
     {
@@ -47,7 +48,7 @@ public abstract class Helpers
         FindMagDumpPouchInItem(pocketsSlot?.ContainedItem as PocketsItemClass);
         if (backpackIncluded)
             FindMagDumpPouchInItem(backpackSlot?.ContainedItem as BackpackItemClass);
-        FindMagDumpPouchInItem(armbandSlot?.ContainedItem as VestItemClass);
+        FindMagDumpPouchInItem(armbandSlot?.ContainedItem as CustomBeltItemClass);
 
         // Cast magDumpPouches to CompoundItem and return
         return magDumpPouches;

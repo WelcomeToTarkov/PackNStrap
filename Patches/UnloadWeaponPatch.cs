@@ -22,7 +22,7 @@ internal class UnloadWeaponPatch : ModulePatch
     [PatchPrefix]
     public static bool UnloadWeaponPrefix(ItemUiContext __instance, ref Weapon weapon, ref Task __result)
     {
-        if (!GClass2064.InRaid)
+        if (!GClass2107.InRaid)
         {
             return true;
         }
@@ -63,7 +63,7 @@ internal class UnloadWeaponPatch : ModulePatch
                 return;
             }
 
-            if (!__instance.method_4(weapon))
+            if (!__instance.method_14(weapon))
             {
                 InventoryEquipment equipment = inventoryControllerClass.Inventory.Equipment;
                 bool isInEquipment = equipment.Contains(currentMagazine);
@@ -94,7 +94,7 @@ internal class UnloadWeaponPatch : ModulePatch
 
 
                     // Search for MagDumpPouch items and retrieve their grids
-                    List<SimpleContainerItemClass> magDumpPouches = Helpers.Helpers.GetMagDumpPouches(equipment, false);
+                    List<SimpleContainerItemClass> magDumpPouches = Helpers.Common.GetMagDumpPouches(equipment, false);
 
                     // Only add MagDumpPouches to enumerable if any were found
                     if (magDumpPouches.Any())
@@ -106,7 +106,7 @@ internal class UnloadWeaponPatch : ModulePatch
                     }
 
 
-                    GStruct446<GInterface385> value = InteractionsHandlerClass.QuickFindAppropriatePlace(currentMagazine, inventoryControllerClass, targets, InteractionsHandlerClass.EMoveItemOrder.ForcePush, true);
+                    GStruct455<GInterface398> value = InteractionsHandlerClass.QuickFindAppropriatePlace(currentMagazine, inventoryControllerClass, targets, InteractionsHandlerClass.EMoveItemOrder.ForcePush, true);
 
                     if (value.Succeeded)
                     {
@@ -134,7 +134,7 @@ internal class UnloadWeaponPatch : ModulePatch
 
     private static void HandleUnloadFailure(InventoryController inventoryControllerClass, MagazineItemClass currentMagazine)
     {
-        if (!GClass2064.InRaid)
+        if (!GClass2107.InRaid)
         {
             NotificationManagerClass.DisplayWarningNotification("Can't find a place for item".Localized());
         }
