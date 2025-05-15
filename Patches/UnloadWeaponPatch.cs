@@ -7,6 +7,7 @@ using EFT.Communications;
 using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
+using PackNStrap.Core.Items;
 using SPT.Reflection.Patching;
 using PackNStrap.Helpers;
 
@@ -26,14 +27,17 @@ internal class UnloadWeaponPatch : ModulePatch
         {
             return true;
         }
+        
+        #if DEBUG
         Console.WriteLine($"Starting CustomUnloadWeapon for weapon: {weapon.TemplateId}");
+        #endif
         try
         {
             // Set the result to the Task returned by CustomUnloadWeapon
             __result = CustomUnloadWeapon(__instance, weapon);
             return false;
         }
-        catch (Exception ex)
+        catch (Exception ex) 
         {
             Console.WriteLine(ex.ToString());
             return true;
@@ -42,106 +46,103 @@ internal class UnloadWeaponPatch : ModulePatch
 
     private static async Task CustomUnloadWeapon(ItemUiContext __instance, Weapon weapon)
     {
-#if DEBUG
-        Console.WriteLine("Entered CustomUnloadWeapon method.");
-#endif
-        InventoryController inventoryControllerClass = (InventoryController)AccessTools.Field(typeof(ItemUiContext), "inventoryController_0").GetValue(__instance);
-        if (inventoryControllerClass == null)
-        {
-            Console.WriteLine("InventoryController is null.");
-            return;
-        }
-
-        CompoundItem[] rightPanelItems = __instance.CompoundItem_0;
-
+        TraderControllerClass traderControllerClass = (TraderControllerClass)
+            AccessTools.Field(typeof(ItemUiContext),
+                    "traderControllerClass")
+                .GetValue(__instance);
+        CompoundItem[] compoundItem_0 = (CompoundItem[])
+            AccessTools.Field(typeof(ItemUiContext),
+                    "compoundItem_0")
+                .GetValue(__instance);
         if (!weapon.IsUnderBarrelDeviceActive)
         {
             MagazineItemClass currentMagazine = weapon.GetCurrentMagazine();
-            if (currentMagazine == null)
+            if (currentMagazine != null)
             {
-                Console.WriteLine("Current magazine is null.");
-                return;
-            }
-
-            if (!__instance.method_14(weapon))
-            {
-                InventoryEquipment equipment = inventoryControllerClass.Inventory.Equipment;
-                bool isInEquipment = equipment.Contains(currentMagazine);
-#if DEBUG
-                Console.WriteLine($"Current magazine is {(isInEquipment ? "in" : "not in")} equipment.");
-#endif
-                if (!isInEquipment && rightPanelItems == null)
+                if (!__instance.method_14(weapon))
                 {
-#if DEBUG
-
-                    Console.WriteLine("Something went wrong. Right panel is null while mag is not from equipment.");
-#endif
-                }
-                else
-                {
-                    IEnumerable<CompoundItem> enumerable;
-                    if (rightPanelItems != null)
+                    var inventoryEquipment = (InventoryEquipment)
+                        AccessTools.Field(typeof(ItemUiContext),
+                                "inventoryEquipment_0")
+                            .GetValue(__instance);
+                    bool flag;
+                    if (!(flag = inventoryEquipment.Contains(currentMagazine)) && compoundItem_0 == null)
                     {
-                        enumerable = (isInEquipment ? equipment.ToEnumerable<InventoryEquipment>().Concat(rightPanelItems) : rightPanelItems.Concat(equipment.ToEnumerable<InventoryEquipment>()));
+                        global::UnityEngine.Debug.LogError("Something went wrong. Right panel is null while mag is not from equipment.");
                     }
                     else
                     {
-                        enumerable = equipment.ToEnumerable<InventoryEquipment>();
-                    }
-
-
-                    IEnumerable<CompoundItem> targets = enumerable;
-
-
-                    // Search for MagDumpPouch items and retrieve their grids
-                    List<SimpleContainerItemClass> magDumpPouches = Helpers.Common.GetMagDumpPouches(equipment, false);
-
-                    // Only add MagDumpPouches to enumerable if any were found
-                    if (magDumpPouches.Any())
-                    {
-#if DEBUG
-                        Console.WriteLine("using mag dump pouches.");
-#endif
-                        targets = magDumpPouches;
-                    }
-
-
-                    GStruct455<GInterface398> value = InteractionsHandlerClass.QuickFindAppropriatePlace(currentMagazine, inventoryControllerClass, targets, InteractionsHandlerClass.EMoveItemOrder.ForcePush, true);
-
-                    if (value.Succeeded)
-                    {
-                        if (!(await ItemUiContext.smethod_0(inventoryControllerClass, currentMagazine, value, null)).Succeed)
+                        IEnumerable<CompoundItem> enumerable;
+                        if (compoundItem_0 != null)
                         {
-                            HandleUnloadFailure(inventoryControllerClass, currentMagazine);
+                            enumerable = (flag ? inventoryEquipment.ToEnumerable<InventoryEquipment>().Concat(compoundItem_0) : compoundItem_0.Concat(inventoryEquipment.ToEnumerable<InventoryEquipment>()));
+                        }
+                        else
+                        {
+                            IEnumerable<CompoundItem> enumerable2 = inventoryEquipment.ToEnumerable<InventoryEquipment>();
+                            enumerable = enumerable2;
+                        }
+                        
+#if DEBUG
+                        Console.WriteLine("[BEFORE] Original containers:");
+                        LogContainers(enumerable);
+#endif
+
+                        // MagDumpPouch logic
+                        List<CustomContainerItemClass> magDumpPouches = Common.GetMagDumpPouches(inventoryEquipment, false);
+                
+#if DEBUG
+                        Console.WriteLine($"Found {magDumpPouches?.Count ?? 0} MagDumpPouches");
+#endif
+                        IEnumerable<CompoundItem> enumerable3;
+                        if (magDumpPouches != null)
+                        {
+                            enumerable3 = magDumpPouches
+                                .Concat(enumerable);
+                        }
+                        else
+                        {
+                            enumerable3 = enumerable;
+                        }
+
+#if DEBUG
+                        Console.WriteLine("[AFTER] Final search order:");
+                        LogContainers(enumerable3);
+#endif
+                        GStruct455<GInterface398> gstruct = InteractionsHandlerClass.QuickFindAppropriatePlace(currentMagazine, traderControllerClass, enumerable3, InteractionsHandlerClass.EMoveItemOrder.PrioritizeTargetsOrder, true);
+                        bool flag2;
+                        if (flag2 = gstruct.Succeeded)
+                        {
+                            flag2 = (await ItemUiContext.smethod_0(traderControllerClass, currentMagazine, gstruct, null)).Succeed;
+                        }
+                        if (!flag2)
+                        {
+                            if (!GClass2107.InRaid)
+                            {
+                                NotificationManagerClass.DisplayWarningNotification("Can't find a place for item".Localized(null), ENotificationDurationType.Default);
+                            }
+                            else if (traderControllerClass.CanThrow(currentMagazine))
+                            {
+                                traderControllerClass.ThrowItem(currentMagazine, true, null);
+                            }
                         }
                     }
-                    else
-                    {
-                        HandleUnloadFailure(inventoryControllerClass, currentMagazine);
-                    }
                 }
             }
+            
         }
-        else
-        {
-#if DEBUG
-            Console.WriteLine("Weapon has an active under-barrel device; unload operation skipped.");
-#endif
-        }
-
-        Console.WriteLine("Exiting CustomUnloadWeapon method.");
     }
-
-    private static void HandleUnloadFailure(InventoryController inventoryControllerClass, MagazineItemClass currentMagazine)
+    private static void LogContainers(IEnumerable<CompoundItem> containers)
     {
-        if (!GClass2107.InRaid)
+        if (containers == null)
         {
-            NotificationManagerClass.DisplayWarningNotification("Can't find a place for item".Localized());
-        }
-        else if (inventoryControllerClass.CanThrow(currentMagazine))
-        {
-            inventoryControllerClass.ThrowItem(currentMagazine, true);
+            Console.WriteLine("No containers available");
+            return;
         }
 
+        foreach (var container in containers)
+        {
+            Console.WriteLine($"- Container: {container.Name} ({container.Id})");
+        }
     }
 }

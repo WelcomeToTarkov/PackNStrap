@@ -17,6 +17,7 @@ public class CustomContainerItemClass : SearchableItemItemClass
 		if (!string.IsNullOrEmpty(template.CustomLayoutName))
 		{
 			this.Components.Add(new GridLayoutComponent(this, template));
+			this.Components.Add(this.Tag = new TagComponent(this));
 		}
 	}
 
@@ -24,14 +25,14 @@ public class CustomContainerItemClass : SearchableItemItemClass
 	{
 		get
 		{
-			// Yield base buttons first
-			foreach (var button in base.ItemInteractionButtons)
+			yield return EItemInfoButton.Open;
+			yield return EItemInfoButton.Tag;
+			if (!string.IsNullOrEmpty(this.Tag.Name))
 			{
-				yield return button;
+				yield return EItemInfoButton.ResetTag;
 			}
-
-			// Add container-specific buttons
-			yield return EItemInfoButton.Modding;
 		}
 	}
+	[GAttribute23]
+	public readonly TagComponent Tag;
 }

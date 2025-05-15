@@ -10,6 +10,7 @@ using EFT.UI;
 using EFT;
 using SPT.Reflection.Utils;
 using Comfort.Common;
+using CustomBelt.Patches;
 using PackNStrap.Helpers;
 
 
@@ -92,6 +93,8 @@ namespace PackNStrap
 
             TraderServicesEligibleSlots = TraderServicesEligibleSlots ?? typeof(InventoryEquipment).GetField("TraderServicesEligibleSlots");
             TraderServicesEligibleSlots?.SetValue(TraderServicesEligibleSlots, NewTraderServicesEligibleSlots);
+            
+            
 
             #endregion
 
@@ -101,6 +104,7 @@ namespace PackNStrap
             new GrenadeThrowingSlotsPatch().Enable();
             new MergeContainerWithChildrenPatch().Enable();
             new UnloadWeaponPatch().Enable();
+            new FindSlotForPickupPatch().Enable();
         }
 
 

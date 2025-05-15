@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using EFT;
 using EFT.InventoryLogic;
 using PackNStrap.Core.Items;
 
@@ -10,7 +11,7 @@ namespace PackNStrap.Helpers;
 
 public abstract class Common
 {
-    public static List<SimpleContainerItemClass> GetMagDumpPouches(InventoryEquipment equipment, bool backpackIncluded)
+    public static List<CustomContainerItemClass> GetMagDumpPouches(InventoryEquipment equipment, bool backpackIncluded)
     {
         if (equipment == null)
         {
@@ -18,7 +19,7 @@ public abstract class Common
             return null;
         }
 
-        List<SimpleContainerItemClass> magDumpPouches = new List<SimpleContainerItemClass>();
+        List<CustomContainerItemClass> magDumpPouches = new List<CustomContainerItemClass>();
         var magDumpPouchItemId = "440de5d056825485a0cf3a19";
 
         // Function to search first-level items for the pouch
@@ -28,7 +29,7 @@ public abstract class Common
 
             foreach (var itemInGrid in item.GetAllItems())
             {
-                if (itemInGrid is SimpleContainerItemClass potentialMagDumpPouch 
+                if (itemInGrid is CustomContainerItemClass potentialMagDumpPouch 
                     && potentialMagDumpPouch.TemplateId == magDumpPouchItemId)
                 {
                     if (potentialMagDumpPouch.IsChildOf(item))
@@ -54,5 +55,14 @@ public abstract class Common
         return magDumpPouches;
     }
 
-
+    public static bool CanAcceptItems(StashGridClass grid)
+    {
+        Player player = PackNStrap.Player;
+        // Example condition, replace with actual logic as needed
+        if (player != null && player.HandsController != null && player.HandsController?.Item != null && player.HandsController?.Item?.GetCurrentMagazine() != null)
+        {
+            return grid.CanAccept(player.HandsController?.Item?.GetCurrentMagazine()); // Assuming `CanAcceptItems` is a property or method on `StashGridClass`
+        }
+        return false;
+    }
 }

@@ -6,6 +6,7 @@ using EFT;
 using EFT.InventoryLogic;
 using HarmonyLib;
 using PackNStrap.Core.Items;
+using PackNStrap.Helpers;
 using SPT.Reflection.Patching;
 
 namespace PackNStrap.Patches;
@@ -39,12 +40,12 @@ internal class GetPrioritizedGridsForUnloadedObjectPatch : ModulePatch
         StashGridClass[] armbandGrids = armbandItem?.Grids ?? Array.Empty<StashGridClass>();
 
         // Find all instances of magDumpPouch
-        List<SimpleContainerItemClass> magDumpPouches = Helpers.Common.GetMagDumpPouches(equipment, backpackIncluded);
+        List<CustomContainerItemClass> magDumpPouches = Helpers.Common.GetMagDumpPouches(equipment, backpackIncluded);
 
         // Retrieve grids for all found magDumpPouches that can accept items
         List<StashGridClass> magDumpPouchGrids = magDumpPouches
             .SelectMany(pouch => pouch.Grids ?? Array.Empty<StashGridClass>())
-            .Where(CanAcceptItems) // Check if grid can accept items
+            .Where(Common.CanAcceptItems) // Check if grid can accept items
             .ToList();
 
         if (magDumpPouchGrids.Count > 0)
@@ -67,14 +68,5 @@ internal class GetPrioritizedGridsForUnloadedObjectPatch : ModulePatch
     }
 
     // Method to determine if a grid can accept items
-    private static bool CanAcceptItems(StashGridClass grid)
-    {
-        Player player = PackNStrap.Player;
-        // Example condition, replace with actual logic as needed
-        if (player != null && player.HandsController != null && player.HandsController?.Item != null && player.HandsController?.Item?.GetCurrentMagazine() != null)
-        {
-            return grid.CanAccept(player.HandsController?.Item?.GetCurrentMagazine()); // Assuming `CanAcceptItems` is a property or method on `StashGridClass`
-        }
-        return false;
-    }
+
 }

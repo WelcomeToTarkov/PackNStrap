@@ -17,6 +17,7 @@ public class CustomSecureContainerClass : SearchableItemItemClass
         if (!string.IsNullOrEmpty(template.CustomLayoutName))
         {
             this.Components.Add(new GridLayoutComponent(this, template));
+            this.Components.Add(this.Tag = new TagComponent(this));
         }
     }
 
@@ -30,8 +31,13 @@ public class CustomSecureContainerClass : SearchableItemItemClass
                 yield return button;
             }
 
-            // Add container-specific buttons
-            yield return EItemInfoButton.Modding;
+            yield return EItemInfoButton.Tag;
+            if (!string.IsNullOrEmpty(this.Tag.Name))
+            {
+                yield return EItemInfoButton.ResetTag;
+            }
         }
     }
+    [GAttribute23]
+    public readonly TagComponent Tag;
 }
