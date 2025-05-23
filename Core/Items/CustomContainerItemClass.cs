@@ -17,15 +17,24 @@ public class CustomContainerItemClass : SearchableItemItemClass
 		if (!string.IsNullOrEmpty(template.CustomLayoutName))
 		{
 			this.Components.Add(new GridLayoutComponent(this, template));
-			this.Components.Add(this.Tag = new TagComponent(this));
 		}
+		this.Components.Add(this.Tag = new TagComponent(this));
+
 	}
 
 	public override IEnumerable<EItemInfoButton> ItemInteractionButtons
 	{
 		get
 		{
+			// Yield base buttons first
+			foreach (var button in Item._itemInteractions)
+			{
+				yield return button;
+			}
+			
 			yield return EItemInfoButton.Open;
+
+			// Add container-specific buttons
 			yield return EItemInfoButton.Tag;
 			if (!string.IsNullOrEmpty(this.Tag.Name))
 			{

@@ -17,8 +17,8 @@ public class CustomBeltItemClass : SearchableItemItemClass
         if (!string.IsNullOrEmpty(template.CustomLayoutName))
         {
             this.Components.Add(new GridLayoutComponent(this, template));
-            this.Components.Add(this.Tag = new TagComponent(this));
         }
+        this.Components.Add(this.Tag = new TagComponent(this));
     }
 
     public override IEnumerable<EItemInfoButton> ItemInteractionButtons
