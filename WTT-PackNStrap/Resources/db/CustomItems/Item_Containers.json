@@ -1,0 +1,2243 @@
+{
+  "0c22fc270f59b28c064e1232": {
+    "itemTplToClone": "5b7c710788a4506dec015957",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_smallscavcase.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 2,
+      "Weight": 1.8,
+      "DiscardingBlock": false,
+      "ItemSound": "container_plastic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "5b7c710788a4506dec015959",
+          "_parent": "container_smallscavcase",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5448eb774bdc2d0a728b4567",
+                  "5448ecbe4bdc2d60728b4568",
+                  "5447e0e74bdc2d3c308b4567"
+                ],
+                "ExcludedFilter": []
+              }
+            ],
+            "cellsH": 8,
+            "cellsV": 5,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Small Scavenger's Case",
+        "shortName": "Scav Case",
+        "description": "A rugged case that can be used to store random barter items."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 648890,
+    "handbookPriceRoubles": 544098,
+    "addtoTraders": true,
+    "traders": {
+      "THERAPIST": {
+        "681cebc289db6cbb8e0d688e": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 475000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "9543bbe8083934dc3b1b1330": {
+    "itemTplToClone": "5b7c710788a4506dec015957",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_toolpouch.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.8,
+      "DiscardingBlock": false,
+      "ItemSound": "container_plastic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "a79eb3b1f7a9df61d935463d",
+          "_name": "GridView (1)",
+          "_parent": "9543bbe8083934dc3b1b1330",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "57864bb7245977548b3b66c2",
+                  "57864ada245977548638de91",
+                  "57864ee62459775490116fc1",
+                  "57864e4c24597754843f8723",
+                  "544fb5454bdc2df8738b456a",
+                  "59fafd4b86f7745ca07e1232",
+                  "62a09d3bcf4a99369e262447"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "66b6746f01162950825968fe",
+          "_name": "GridView (2)",
+          "_parent": "9543bbe8083934dc3b1b1330",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "57864bb7245977548b3b66c2",
+                  "57864ada245977548638de91",
+                  "57864ee62459775490116fc1",
+                  "57864e4c24597754843f8723",
+                  "544fb5454bdc2df8738b456a",
+                  "59fafd4b86f7745ca07e1232",
+                  "62a09d3bcf4a99369e262447"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4d7703a40e91171a152ef096",
+          "_name": "GridView (3)",
+          "_parent": "9543bbe8083934dc3b1b1330",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "57864bb7245977548b3b66c2",
+                  "57864ada245977548638de91",
+                  "57864ee62459775490116fc1",
+                  "57864e4c24597754843f8723",
+                  "544fb5454bdc2df8738b456a",
+                  "59fafd4b86f7745ca07e1232",
+                  "62a09d3bcf4a99369e262447"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "946a6b91d590f1d219bc1a0a",
+          "_name": "GridView (4)",
+          "_parent": "9543bbe8083934dc3b1b1330",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "57864bb7245977548b3b66c2",
+                  "57864ada245977548638de91",
+                  "57864ee62459775490116fc1",
+                  "57864e4c24597754843f8723",
+                  "544fb5454bdc2df8738b456a",
+                  "59fafd4b86f7745ca07e1232",
+                  "62a09d3bcf4a99369e262447"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5e210bdf46f202bf74f2246e",
+          "_name": "GridView (5)",
+          "_parent": "9543bbe8083934dc3b1b1330",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "57864bb7245977548b3b66c2",
+                  "57864ada245977548638de91",
+                  "57864ee62459775490116fc1",
+                  "57864e4c24597754843f8723",
+                  "544fb5454bdc2df8738b456a",
+                  "59fafd4b86f7745ca07e1232",
+                  "62a09d3bcf4a99369e262447"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "toolbag"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Small Tool Bag",
+        "shortName": "Tool Bag",
+        "description": "A small repairman's tool bag that can be used for storing a small amount of tools."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 64899,
+    "handbookPriceRoubles": 31420,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "681cebe1424d74e9868e440f": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 48000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "c29f11b2e63a089916739c96": {
+    "itemTplToClone": "590c60fc86f77412b13fddcf",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_smalldocscase.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 1,
+      "Height": 2,
+      "Weight": 0.3,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "1fe4790deda7beb683970c66",
+          "_name": "GridView (1)",
+          "_parent": "c29f11b2e63a089916739c96",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "59faff1d86f7746c51718c9c",
+                  "5f745ee30acaeb0d490d8c5b",
+                  "619cbf9e0a7c3a1a2731940a",
+                  "5448ecbe4bdc2d60728b4568",
+                  "543be5e94bdc2df1348b4568",
+                  "567849dd4bdc2d150f8b456e",
+                  "543be5dd4bdc2deb348b4569",
+                  "67449b6c89d5e1ddc603f504",
+                  "6759673c76e93d8eb20b2080"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4f6b0b487a7641966629e860",
+          "_name": "GridView (2)",
+          "_parent": "c29f11b2e63a089916739c96",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "59faff1d86f7746c51718c9c",
+                  "5f745ee30acaeb0d490d8c5b",
+                  "619cbf9e0a7c3a1a2731940a",
+                  "5448ecbe4bdc2d60728b4568",
+                  "543be5e94bdc2df1348b4568",
+                  "567849dd4bdc2d150f8b456e",
+                  "543be5dd4bdc2deb348b4569",
+                  "67449b6c89d5e1ddc603f504",
+                  "6759673c76e93d8eb20b2080"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "docket"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Small Leather Docket",
+        "shortName": "Docket",
+        "description": "A small leather docket that can be used to securely store important small items and currency."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 60890,
+    "handbookPriceRoubles": 37840,
+    "addtoTraders": true,
+    "traders": {
+      "THERAPIST": {
+        "681cebe91d042d2336884b49": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 47800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "12403f74773f49be6a2d84b7": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_medpouch.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 1,
+      "Height": 2,
+      "Weight": 0.35,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "container_medpouchgrids",
+          "_name": "main",
+          "_parent": "container_medpouch",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 4,
+            "filters": [
+              {
+                "Filter": [
+                  "57864c8c245977548867e7f1",
+                  "543be5664bdc2dd4348b4569"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Small Medical Pouch",
+        "shortName": "Med Pouch",
+        "description": "A small medical pouch that can be used to store medical items."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 58420,
+    "handbookPriceRoubles": 31420,
+    "addtoTraders": true,
+    "traders": {
+      "THERAPIST": {
+        "681cebef6841b06070a87ca4": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 41000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "ae9e418fd5d4c4eec4a0e6ea": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_ammopouch.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 2,
+      "Height": 1,
+      "Weight": 0.2,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "681ce9cf5ce2d7c32869a882",
+          "_name": "main",
+          "_parent": "ae9e418fd5d4c4eec4a0e6ea",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 2,
+            "filters": [
+              {
+                "Filter": [
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Small Ammunition Pouch",
+        "shortName": "Ammo Pouch",
+        "description": "A small leather pouch that can be used to store munitions."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 53092,
+    "handbookPriceRoubles": 28092,
+    "addtoTraders": true,
+    "traders": {
+      "PRAPOR": {
+        "681cebf3a5b78b2ddd99206d": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 39500,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "440de5d056825485a0cf3a19": {
+    "itemTplToClone": "5c127c4486f7745625356c13",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_magpouch.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.24,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "681ce3db853165c2391beedf",
+          "_name": "main",
+          "_parent": "440de5d056825485a0cf3a19",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 4,
+            "filters": [
+              {
+                "Filter": [
+                  "5448bc234bdc2d3c308b4569"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Small Magazine Pouch",
+        "shortName": "Mag Pouch",
+        "description": "A small fabric pouch that can be used to store magazines."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 60000,
+    "handbookPriceRoubles": 34900,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "681cebfb9d72c74afd95961d": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 50000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "6925918065a41e6b1e02a7d7": {
+    "itemTplToClone": "5c093db286f7740a1b2617e3",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_lunchbox.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.3,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "681ce3c6b7147ff8ec7104df",
+          "_name": "main",
+          "_parent": "6925918065a41e6b1e02a7d7",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 3,
+            "filters": [
+              {
+                "Filter": [
+                  "5af0484c86f7740f02001f7f",
+                  "5e54f6af86f7742199090bf3",
+                  "5bc9be8fd4351e00334cae6e",
+                  "543be6674bdc2df1348b4569",
+                  "6389c6463485cf0eeb260715"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Vintage Lunch Box",
+        "shortName": "Lunch Box",
+        "description": "A retro lunch box that can be used to store a small amount of food or drink."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 39500,
+    "addtoTraders": true,
+    "traders": {
+      "JAEGER": {
+        "681cec0030c4e15a24b92418": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 55000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "2eabd4da4ab194eb168e72d3": {
+    "itemTplToClone": "59fafd4b86f7745ca07e1232",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_keyring.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.01,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "59a904cd89f4067968dfb1c5",
+          "_name": "GridView (1)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "ffb155cbb9810a67b281a1e1",
+          "_name": "GridView (2)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f02866ea5077e02e0fb95eaf",
+          "_name": "GridView (3)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f0389244c9286e8fccf14dde",
+          "_name": "GridView (4)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e65102c6111e318ff7874301",
+          "_name": "GridView (5)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "ba9751104f8d8d787bc7746b",
+          "_name": "GridView (6)",
+          "_parent": "2eabd4da4ab194eb168e72d3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "cb20772ea9dd41f34751c03b",
+          "_name": "GridView (7)",
+          "_parent": "keyring",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0a92cc534cc6d21680179ccf",
+          "_name": "GridView (8)",
+          "_parent": "keyring",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5c99f98d86f7745c314214b3",
+                  "67449b6c89d5e1ddc603f504"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "keyring"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Small Key Ring",
+        "shortName": "Key Ring",
+        "description": "A key ring that can hold a small number of keys."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 165000,
+    "handbookPriceRoubles": 115000,
+    "addtoTraders": true,
+    "traders": {
+      "THERAPIST": {
+        "681cec065b9b15c875d7647c": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 125000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "669c10fa06c00c483c58537a": {
+    "itemTplToClone": "60b0f6c058e0b0481a09ad11",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_cashbox.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 2,
+      "Height": 1,
+      "Weight": 0.75,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "container_cashboxgrid",
+          "_name": "main",
+          "_parent": "container_cashbox",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 2,
+            "filters": [
+              {
+                "Filter": [
+                  "5449016a4bdc2d6f028b456f",
+                  "569668774bdc2da2298b4568",
+                  "5696686a4bdc2da3298b456a",
+                  "59faff1d86f7746c51718c9c",
+                  "5d235b4d86f7742e017bc88a",
+                  "59faf7ca86f7740dbe19f6c2",
+                  "5937fc6786f7742cab753590",
+                  "5937fd0086f7742bf33fc198",
+                  "590de92486f77423d9312a33",
+                  "5d235a5986f77443f6329bc6",
+                  "5734758f24597738025ee253",
+                  "573474f924597738002c6174",
+                  "638cbb3ba63f1b49be6a300e",
+                  "590c62a386f77412b0130255",
+                  "62a0a16d0b9d3c46de5b6e97"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Small Cash Box",
+        "shortName": "Cash Box",
+        "description": "A small lockable box meant for storing cash and valuables."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 77040,
+    "handbookPriceRoubles": 38070,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "SKIER": {
+        "6761ac7b49af6c6a9d8f3896": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 68550,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "669c1a420c8342338269dd86": {
+    "itemTplToClone": "5c093db286f7740a1b2617e3",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_thermaster.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 3,
+      "Weight": 2,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "container_thermastergrid",
+          "_name": "main",
+          "_parent": "container_thermaster",
+          "_props": {
+            "cellsH": 5,
+            "cellsV": 4,
+            "filters": [
+              {
+                "Filter": [
+                  "5af0484c86f7740f02001f7f",
+                  "5e54f6af86f7742199090bf3",
+                  "5bc9be8fd4351e00334cae6e",
+                  "543be6674bdc2df1348b4569",
+                  "6389c6463485cf0eeb260715"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Vintage Thermaster Cooler",
+        "shortName": "Thermaster",
+        "description": "A retro camping cooler that can be used to store food or drinks."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 125921,
+    "handbookPriceRoubles": 75945,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "JAEGER": {
+        "6761ac7b49af6c6a9d8f3897": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 98500,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "681c17948a6e3fb72e221390": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_fuel.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 2,
+      "Weight": 1.35,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "container_fuelgrids",
+          "_name": "main",
+          "_parent": "container_fuel",
+          "_props": {
+            "cellsH": 6,
+            "cellsV": 3,
+            "filters": [
+              {
+                "Filter": [
+                  "5d1b371186f774253763a656",
+                  "5d1b36a186f7742523398433"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Vintage Fuel Container",
+        "shortName": "Fuel",
+        "description": "Vintage WW1 fuel jug that can hold a moderate amount of fuel."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 42900,
+    "handbookPriceRoubles": 16500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "JAEGER": {
+        "681d20d59b53f3a3a6fcd7c6": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 36500,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "681d117c2b345ac614614bf8": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_foodcart.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 3,
+      "Weight": 4,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "5de401dc45c2bbacc6c963f7",
+          "_name": "GridView (1)",
+          "_parent": "681d117c2b345ac614614bf8",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7e065674e8d0d0ecde3d7022",
+          "_name": "GridView (2)",
+          "_parent": "681d117c2b345ac614614bf8",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "92fadbd0ead3424dcbc5ace0",
+          "_name": "GridView (3)",
+          "_parent": "681d117c2b345ac614614bf8",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "574478f218d6731f9f4e8c6f",
+          "_name": "GridView (4)",
+          "_parent": "681d117c2b345ac614614bf8",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3afe936ad6dfd19eba4635f0",
+          "_name": "GridView (5)",
+          "_parent": "681d117c2b345ac614614bf8",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "foodcart"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Mobile Food Cart",
+        "shortName": "Food Cart",
+        "description": "A mobile food cart that can store a moderate amount of consumables."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 210000,
+    "handbookPriceRoubles": 110000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "JAEGER": {
+        "681d20d1beba8dff02036892": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 165000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "681d124d70b2418646a80fa3": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_violin.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 4,
+      "Height": 2,
+      "Weight": 2.5,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "ca5ac10d3d973ef8d62ebe61",
+          "_name": "GridView (1)",
+          "_parent": "681d124d70b2418646a80fa3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7646f39e8850952b792cf473",
+          "_name": "GridView (2)",
+          "_parent": "681d124d70b2418646a80fa3",
+          "_props": {
+            "cellsH": 7,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "violin"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Violin Case",
+        "shortName": "Violin Case",
+        "description": "A violin case that can store a rifle or two."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 65100,
+    "handbookPriceRoubles": 31800,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "MECHANIC": {
+        "681d20cad16cecfe5f8b6231": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 49100,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "681d1395a5c2308fdcbcda92": {
+    "itemTplToClone": "5aafbde786f774389d0cbc0f",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_modcase.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 2,
+      "Weight": 1.2,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "3dd11d5185d076e3c7fb4a0b",
+          "_name": "GridView (1)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "72256aab11ce0a044183d400",
+          "_name": "GridView (2)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "66bd91de563fd73cb59a4f53",
+          "_name": "GridView (3)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0fa2c37002553dea8efbe9d1",
+          "_name": "GridView (4)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a4e9f8551d701f9b716e63b8",
+          "_name": "GridView (5)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "176dd29f1af9502684ff96a8",
+          "_name": "GridView (6)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0e7ff7614006e97343f9585a",
+          "_name": "GridView (7)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5d556462872fdfaa6ae58d68",
+          "_name": "GridView (8)",
+          "_parent": "681d1395a5c2308fdcbcda92",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3202d59cdae868c0a3857a7e",
+          "_name": "GridView (9)",
+          "_parent": "modcase",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "modcase"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Attachment Case",
+        "shortName": "Attachment Case",
+        "description": "A protective case that can safely store weapon attachments."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 67100,
+    "handbookPriceRoubles": 30800,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "MECHANIC": {
+        "681d20c617cda851ff6eac90": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 44900,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  },
+  "681d1448a0a20c9db8861321": {
+    "itemTplToClone": "5b7c710788a4506dec015957",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_suitcase.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 4,
+      "Height": 2,
+      "Weight": 3.5,
+      "DiscardingBlock": false,
+      "ItemSound": "container_plastic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "4acb187b9b9e236387b3a6d4",
+          "_name": "GridView (1)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "961492d0261b75d495d055de",
+          "_name": "GridView (2)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f0095ac856165d31698a174e",
+          "_name": "GridView (3)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "31754cb61448abcd0b2f4fb7",
+          "_name": "GridView (4)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "9bce663ac99c4f88496af158",
+          "_name": "GridView (5)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4e03e521371a04c1c85725e2",
+          "_name": "GridView (6)",
+          "_parent": "681d1448a0a20c9db8861321",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "suitcase"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Vintage Suitcase",
+        "shortName": "Suitcase",
+        "description": "A vintage suitcase that can store a small amount of items."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 488090,
+    "handbookPriceRoubles": 401098,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "681d20b7114723d90d5df3a6": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 424011,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
+  },
+  "681d1ef3db9fe57ea08ed67a": {
+    "itemTplToClone": "5c0a840b86f7742ffa4f2482",
+    "parentId": "680fd1dae5044e670a092e16",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Containers/container_safe.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 5,
+      "Height": 7,
+      "Weight": 150,
+      "DiscardingBlock": false,
+      "ItemSound": "gear_generic",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_id": "e0467d8e9cd3ae69536c01c5",
+          "_name": "GridView (1)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 7,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "dc34bdf9815e74d6d1e716e3",
+          "_name": "GridView (2)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 7,
+            "cellsV": 9,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e44abb899d01838709b77dd1",
+          "_name": "GridView (3)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a3cad34749da798a7ddf61dc",
+          "_name": "GridView (4)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "28f3a38a4c0948bf9eba5163",
+          "_name": "GridView (5)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "39861e5da748c056fbd7c93e",
+          "_name": "GridView (6)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "720a90fc5afa149137cfe183",
+          "_name": "GridView (7)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5af1728b00d7d35951aa909c",
+          "_name": "GridView (8)",
+          "_parent": "681d1ef3db9fe57ea08ed67a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 6,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448fe124bdc2da5018b4567",
+                  "5422acb9af1c889c16000029",
+                  "5485a8684bdc2da71d8b4567",
+                  "543be5cb4bdc2deb348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "ExtensionData": {
+        "CustomLayoutName": "bigsafe"
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Gun Safe",
+        "shortName": "Gun Safe",
+        "description": "A large secured gun safe that can store a large amount of guns and attachments."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 4000000,
+    "handbookPriceRoubles": 2750000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {
+      "MECHANIC": {
+        "681d20b3c31f91471de9cc41": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2,
+              "_tpl": "59faff1d86f7746c51718c9c"
+            },
+            {
+              "count": 3,
+              "_tpl": "59fb023c86f7746d0d4b423c"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": []
+  }
+}
