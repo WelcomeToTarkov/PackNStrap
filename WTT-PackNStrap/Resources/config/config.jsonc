@@ -1,4 +1,4 @@
 {
-  "loseArmbandOnDeath": true,
-  "addCasesToSecureContainers": false
+  "loseArmbandOnDeath": false,
+  "addCasesToSecureContainers": true
 }
