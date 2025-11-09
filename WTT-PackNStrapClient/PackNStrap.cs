@@ -9,13 +9,15 @@ using EFT.UI;
 using EFT;
 using SPT.Reflection.Utils;
 using Comfort.Common;
+using HarmonyLib;
 using PackNStrap.Helpers;
 using WTTClientCommonLib.Services;
 
 
 namespace PackNStrap
 {
-    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.0")]
+    [BepInDependency("com.cj.useFromAnywhere", "1.3.1")]
+    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.2")]
 
     internal class PackNStrap : BaseUnityPlugin
     {
@@ -29,63 +31,11 @@ namespace PackNStrap
 
         public static readonly string PluginPath = Path.Combine(Environment.CurrentDirectory, "BepInEx", "plugins");
 
-        #region Proper Armband Slots Info
-        public FieldInfo FastAccessSlots { get; set; }
-
-        private static readonly EquipmentSlot[] NewFastAccessSlots =
-        [
-            EquipmentSlot.Pockets, 
-            EquipmentSlot.TacticalVest, 
-            EquipmentSlot.ArmBand
-        ];
-        public FieldInfo BindAvailableSlots { get; set; }
-
-        private static readonly EquipmentSlot[] NewBindAvailableSlots =
-        [
-            EquipmentSlot.FirstPrimaryWeapon,
-            EquipmentSlot.SecondPrimaryWeapon,
-            EquipmentSlot.Holster,
-            EquipmentSlot.Scabbard,
-            EquipmentSlot.Pockets,
-            EquipmentSlot.TacticalVest,
-            EquipmentSlot.ArmBand
-        ];
-
-
-        private FieldInfo _traderServicesEligibleSlots;
-
-        private static readonly EquipmentSlot[] NewTraderServicesEligibleSlots =
-        [
-            EquipmentSlot.Backpack,
-            EquipmentSlot.TacticalVest,
-            EquipmentSlot.Pockets,
-            EquipmentSlot.SecuredContainer,
-            EquipmentSlot.ArmBand
-        ];
-
-
-        #endregion
-
         internal void Awake()
         {
             Instance = this;
             CustomTemplateIdToObjectService.AddNewTemplateIdToObjectMapping(NewTemplateIdToObjectIdClass.CustomMappings);
-            #region Proper Belt Fast Access
-            FastAccessSlots = FastAccessSlots ?? typeof(Inventory).GetField("FastAccessSlots");
-            FastAccessSlots?.SetValue(FastAccessSlots, NewFastAccessSlots);
-
-            BindAvailableSlots = BindAvailableSlots ?? typeof(Inventory).GetField("BindAvailableSlotsExtended");
-            BindAvailableSlots?.SetValue(BindAvailableSlots, NewBindAvailableSlots);
-
-            _traderServicesEligibleSlots = _traderServicesEligibleSlots ?? typeof(InventoryEquipment).GetField("TraderServicesEligibleSlots");
-            _traderServicesEligibleSlots?.SetValue(_traderServicesEligibleSlots, NewTraderServicesEligibleSlots);
-            
-            #endregion
-
             new GetPrioritizedGridsForUnloadedObjectPatch().Enable();
-            new ContainerSlotsPatch().Enable();
-            new PaymentSlotsPatch().Enable();
-            new GrenadeThrowingSlotsPatch().Enable();
             new MergeContainerWithChildrenPatch().Enable();
             new UnloadWeaponPatch().Enable();
             new FindSlotForPickupPatch().Enable();
