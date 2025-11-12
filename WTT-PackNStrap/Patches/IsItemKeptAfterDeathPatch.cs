@@ -41,5 +41,4 @@ public class IsItemKeptAfterDeathPatch : AbstractPatch
         return item.Id == armBandItem.Id || 
                inventoryItems.GetItemWithChildren(armBandItem.Id).Any(i => i.Id == item.Id);
     }
-
 }
