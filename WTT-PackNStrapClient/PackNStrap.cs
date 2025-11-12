@@ -1,23 +1,20 @@
 #if !UNITY_EDITOR
 using BepInEx;
-using EFT.InventoryLogic;
 using System;
 using System.IO;
-using System.Reflection;
 using PackNStrap.Patches;
 using EFT.UI;
 using EFT;
 using SPT.Reflection.Utils;
 using Comfort.Common;
-using HarmonyLib;
 using PackNStrap.Helpers;
 using WTTClientCommonLib.Services;
 
 
 namespace PackNStrap
 {
-    [BepInDependency("com.cj.useFromAnywhere", "1.3.1")]
-    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.2")]
+    [BepInDependency("com.cj.useFromAnywhere", "1.3.2")]
+    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.3")]
 
     internal class PackNStrap : BaseUnityPlugin
     {
@@ -39,6 +36,7 @@ namespace PackNStrap
             new MergeContainerWithChildrenPatch().Enable();
             new UnloadWeaponPatch().Enable();
             new FindSlotForPickupPatch().Enable();
+            new RegisterCustomItemTypesPatch().Enable();
         }
 
         internal void Update()
