@@ -81,6 +81,13 @@ public class WTTPackNStrap(
             var lostOnDeathConfig = configServer.GetConfig<LostOnDeathConfig>();
             lostOnDeathConfig.Equipment.ArmBand = true;
             new IsItemKeptAfterDeathPatch().Enable();
+            foreach (var caseId in ContainerIds.Items)
+            {
+                if (_itemsDb.TryGetValue(caseId, out var item))
+                {
+                    item.Properties.InsuranceDisabled = true;
+                }
+            }
         }
 
         if (config is { addCasesToSecureContainers: true })
@@ -173,7 +180,6 @@ public class WTTPackNStrap(
             Type = "Node",
             Properties = new TemplateItemProperties()
         };
-
     }
 }
 
