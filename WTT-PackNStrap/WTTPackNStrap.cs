@@ -58,6 +58,7 @@ public class WTTPackNStrap(
         
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(_assembly);
         wttCommon.CustomRigLayoutService.CreateRigLayouts(_assembly);
+        await wttCommon.CustomLocaleService.CreateCustomLocales(_assembly);
 
         ApplyConfigSettings();
     }
