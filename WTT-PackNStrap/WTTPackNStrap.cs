@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
@@ -78,16 +81,20 @@ public class WTTPackNStrap(
 
         if (config is { loseArmbandOnDeath: false })
         {
-            var lostOnDeathConfig = configServer.GetConfig<LostOnDeathConfig>();
-            lostOnDeathConfig.Equipment.ArmBand = true;
             new IsItemKeptAfterDeathPatch().Enable();
-            foreach (var caseId in ContainerIds.Items)
+            new HandleInsuredItemLostEventPatch().Enable();
+            foreach (var caseId in BeltIds.Items)
             {
                 if (_itemsDb.TryGetValue(caseId, out var item))
                 {
-                    item.Properties.InsuranceDisabled = true;
+                    item.Properties?.InsuranceDisabled = true;
                 }
             }
+        }
+        else
+        {
+            var lostOnDeathConfig = configServer.GetConfig<LostOnDeathConfig>();
+            lostOnDeathConfig.Equipment.ArmBand = true;
         }
 
         if (config is { addCasesToSecureContainers: true })
@@ -180,6 +187,7 @@ public class WTTPackNStrap(
             Type = "Node",
             Properties = new TemplateItemProperties()
         };
+
     }
 }
 
