@@ -1316,7 +1316,7 @@
     },
     "locales": {
       "en": {
-        "name": "Bison Assaulter Belt",
+        "name": "Ferro Concepts Bison Assaulter Belt",
         "shortName": "Assaulter",
         "description": "A Ferro Bison assaulter belt."
       }
@@ -1622,7 +1622,7 @@
     },
     "locales": {
       "en": {
-        "name": "MRB Grenadier Belt",
+        "name": "Crye Precision MRB Grenadier Belt",
         "shortName": "MRB Grenadier",
         "description": "A Crye Precision MRB belt set up for a grenadier."
       }
@@ -1976,7 +1976,7 @@
     },
     "locales": {
       "en": {
-        "name": "MRB VOG Grenadier Belt",
+        "name": "Crye Precision MRB VOG Grenadier Belt",
         "shortName": "VOG Grenadier",
         "description": "A Crye Precision MRB belt set up for a VOG grenadier."
       }
@@ -2378,7 +2378,7 @@
     },
     "locales": {
       "en": {
-        "name": "Grenadier Belt",
+        "name": "Ferro Concepts Grenadier Belt",
         "shortName": "Grenadier",
         "description": "A Ferro Bison assaulter belt with a Tactical Tailor Grenadier bandolier."
       }
@@ -2588,7 +2588,7 @@
     },
     "locales": {
       "en": {
-        "name": "MARCH Assaulter Belt",
+        "name": "Ferro Concepts MARCH Assaulter Belt",
         "shortName": "MARCH Assaulter",
         "description": "A Ferro Bison assaulter belt configured as a MARCH medic belt."
       }
@@ -2774,7 +2774,7 @@
     },
     "locales": {
       "en": {
-        "name": "MRB LMG Belt",
+        "name": "Crye Precision MRB LMG Belt",
         "shortName": "MRB LMG",
         "description": "A Crye Precision MRB belt configured as an LMG gunners belt."
       }
@@ -4112,9 +4112,9 @@
     },
     "locales": {
       "en": {
-        "name": "Tyr Gunfighter Belt",
-        "shortName": "Tyr",
-        "description": "A Tyr Gunfighter belt setup for light recce or medical roles."
+        "name": "TYR Tactical Gunfighter Belt (Skirmisher)",
+        "shortName": "Gunfighter",
+        "description": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This specific belt is set up for light Reconnaissance and Skirmish operations."
       }
     },
     "addtoInventorySlots": [
@@ -4157,6 +4157,248 @@
         }
       }
     },
+    "masterySections": []
+  },
+  "69352d5c409abe93d29321e4": {
+    "itemTplToClone": "572b7adb24597762ae139821",
+    "parentId": "6815465859b8c6ff13f94026",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Gear_Belts/belt_tyr_gunfighter_od.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 2,
+      "Weight": 1.22,
+      "LayoutName": "tyr_gunfighter",
+      "Grids": [
+        {
+          "_id": "28351edbb3470f644fb2e441",
+          "_name": "GridView (1)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b0fb31fe99a4ba0232ebcc0a",
+          "_name": "GridView (2)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f4c518980c10be898a196c89",
+          "_name": "GridView (3)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "66ce365aeac551c14e92ceb4",
+          "_name": "GridView (4)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a89cb4a6bf59d9cde9aac4ce",
+          "_name": "GridView (5)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448f3ac4bdc2dce718b4569"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "22858f40a07f3c4bf29c2435",
+          "_name": "GridView (6)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "33d76cc01372568e7db30e2c",
+          "_name": "GridView (7)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "abc384d809561568038c8882",
+          "_name": "GridView (8)",
+          "_parent": "69352d5c409abe93d29321e4",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "TYR Tactical Gunfighter Belt (Assault, Olive Drab)",
+        "shortName": "Gunfighter",
+        "description": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This specific belt is set up for light Reconnaissance and Skirmish operations."
+      }
+    },
+    "addtoInventorySlots": [
+      "ArmBand"
+    ],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 45038,
+    "handbookPriceRoubles": 33333,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {},
     "masterySections": []
   },
   "681baec29eb1732a417bd7dd": {
@@ -4676,9 +4918,9 @@
     },
     "locales": {
       "en": {
-        "name": "Tyr MCB Raider Belt",
+        "name": "TYR Tactical Raider Belt (Multicam Black)",
         "shortName": "Raider",
-        "description": "A Tyr MCB Gunfighter belt setup for a general purpose tactical offensive role."
+        "description": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This belt is set up for a general purpose tactical offensive role."
       }
     },
     "addtoInventorySlots": [
@@ -4933,6 +5175,272 @@
         }
       }
     },
+    "masterySections": []
+  },
+  "69364a368a4b47eeaf9ba4a3": {
+    "itemTplToClone": "572b7adb24597762ae139821",
+    "parentId": "6815465859b8c6ff13f94026",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Gear_Belts/belt_wartech_vector.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 2,
+      "Weight": 1.54,
+      "LayoutName": "wartech_belt",
+      "Grids": [
+        {
+          "_id": "f933ffd1893a64e0f5cea1e2",
+          "_name": "GridView (1)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "831da0e328511cef4a834c6b",
+          "_name": "GridView (2)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3ef2dafeb68e76f4b15e8c6b",
+          "_name": "GridView (3)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "1a22d90e041c819c28ed5a28",
+          "_name": "GridView (4)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "de55e3630bb095bf604f1bc9",
+          "_name": "GridView (5)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b8c25b3b7dbb353335c43c63",
+          "_name": "GridView (6)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b784389000cd395884282eb1",
+          "_name": "GridView (7)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "9aa41d545b61722f84a76c12",
+          "_name": "GridView (8)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "464d3c514f96024216e74621",
+          "_name": "GridView (9)",
+          "_parent": "69364a368a4b47eeaf9ba4a3",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "WARTECH Warbelt Vector belt (Multicam)",
+        "shortName": "Vector",
+        "description": "The Warbelt Vector belt is a tactical battle belt often used by Russian special forces due to its robust, modular design. Manufactured by WARTECH. Multicam version."
+      }
+    },
+    "addtoInventorySlots": [
+      "ArmBand"
+    ],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 90572,
+    "handbookPriceRoubles": 44622,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {},
     "masterySections": []
   }
 }

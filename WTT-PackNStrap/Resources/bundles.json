@@ -73,6 +73,14 @@
             ]
         },
         {
+          "key": "Gear_Belts/belt_tyr_gunfighter_od.bundle",
+          "dependencyKeys": [
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+          ]
+        },
+        {
             "key": "Gear_Belts/belt_tyr_mcb_raider.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -176,6 +184,14 @@
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
+      {
+        "key": "Gear_Belts/belt_wartech_vector.bundle",
+        "dependencyKeys": [
+          "shaders",
+          "cubemaps",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
         {
             "key": "Item_Containers/container_ammopouch.bundle",
             "dependencyKeys": [
