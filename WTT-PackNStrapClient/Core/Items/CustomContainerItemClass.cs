@@ -35,6 +35,6 @@ public class CustomContainerItemClass : SearchableItemItemClass
 			}
 		}
 	}
-	[GAttribute23]
+	[GAttribute26]
 	public readonly TagComponent Tag;
 }
