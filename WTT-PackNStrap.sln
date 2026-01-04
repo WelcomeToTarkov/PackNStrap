@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTT-PackNStrap", "WTT-PackN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTT-PackNStrapClient", "WTT-PackNStrapClient\WTT-PackNStrapClient.csproj", "{B635121B-E371-45EB-9945-CC4DEBDC2F94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeltSlot", "BeltSlot\BeltSlot.csproj", "{DE403D6D-5B1C-4605-94CA-A54706CB491B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B635121B-E371-45EB-9945-CC4DEBDC2F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B635121B-E371-45EB-9945-CC4DEBDC2F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B635121B-E371-45EB-9945-CC4DEBDC2F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE403D6D-5B1C-4605-94CA-A54706CB491B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE403D6D-5B1C-4605-94CA-A54706CB491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE403D6D-5B1C-4605-94CA-A54706CB491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE403D6D-5B1C-4605-94CA-A54706CB491B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
