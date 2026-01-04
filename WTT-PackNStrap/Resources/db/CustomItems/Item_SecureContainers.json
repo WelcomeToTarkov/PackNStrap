@@ -285,7 +285,7 @@
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "ExtensionData": {
-        "CustomLayoutName": "infirmary"
+        "LayoutName": "infirmary"
       }
     },
     "locales": {
@@ -693,7 +693,7 @@
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "ExtensionData": {
-        "CustomLayoutName": "hexcase"
+        "LayoutName": "hexcase"
       }
     },
     "locales": {
@@ -776,7 +776,7 @@
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "ExtensionData": {
-        "CustomLayoutName": "medicsmall"
+        "LayoutName": "medicsmall"
       }
     },
     "locales": {
