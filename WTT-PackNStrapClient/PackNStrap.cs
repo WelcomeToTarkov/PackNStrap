@@ -14,7 +14,7 @@ using WTTClientCommonLib.Services;
 namespace PackNStrap
 {
     [BepInDependency("com.cj.useFromAnywhere", "1.3.2")]
-    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.4")]
+    [BepInPlugin("com.wtt.packnstrap", "WTT-PackNStrap", "2.0.5")]
 
     internal class PackNStrap : BaseUnityPlugin
     {
