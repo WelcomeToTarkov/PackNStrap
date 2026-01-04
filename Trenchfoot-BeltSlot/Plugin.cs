@@ -15,7 +15,7 @@ using UnityEngine.SceneManagement;
 
 namespace BeltSlot
 {
-    [BepInPlugin("BeltSlot", "BeltSlot", "1.0.1")]
+    [BepInPlugin("com.trenchfoot.beltslot", "Trenchfoot-BeltSlot", "2.0.4")]
     [BepInDependency("com.SPT.core", "4.0.4")]
     [BepInDependency("com.wtt.packnstrap", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin

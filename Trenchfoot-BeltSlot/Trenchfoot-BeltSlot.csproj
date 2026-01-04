@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net472</TargetFramework>
-        <AssemblyName>BeltSlot</AssemblyName>
         <Description>Trenchfoot's custom belt slot!</Description>
         <Version>2.0.4</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
         <Configurations>Debug;Release;UNITY_EDITOR</Configurations>
         <RootNamespace>PackNStrap</RootNamespace>
+        <PackageId>Trenchfoot-BeltSlot</PackageId>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
