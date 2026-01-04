@@ -1,0 +1,244 @@
+Notes on creating a belt slot to work with Packn,Strap
+Currently Armband slot creates a child called 'slot_layout(Clone)(Clone)' at location
+Common UI/Common UI/InventoryScreen/Items/LeftSide/Left Panel/Gear Panel/Armband Slot[8]
+
+Doublclicking/opening the belt creates a new UI window that is identical to that of Rigs
+Preloader UI/Preloader UI/UIContext/WindowsPlaceholder/Grid Window Template(Clone)/
+
+When you switch off of the gear panel, the left side panel gets deactivated, along with references to what was
+equipt there, BUT, there appears to be a check set when you equipt an armor vest to prevent you from equipting 
+an armored rig still.
+
+//////////
+// Goal //
+//////////
+
+Create a new 'slot' that can be used as a parent for the gridlayout of the armband slot if
+the item has a grid layout
+
+Create a copy of the Slot Template and apply desired settings
+
+Desired location and layout of gameobject
+Common UI/Common UI/InventoryScreen/Items Panel/LeftSide/Containers Panel/Scrollview Parent/Containers Scrollview/
+Content
+//Children//
+-Slot Template
+-DogtagTemplate
+-CompassTemplate
+-TacticalVest Slot
+-Belt Slot  <---add new slot here
+-Pockets Slot
+-Backpack Slot
+-SecuredContainer Slot
+
+Belt Slot
+-Header Panel
+--SearchPanel
+--SlotViewHeader // Has Component type 'SlotViewHead' set bool 'Interactable = false' or just disable
+---BackgroundIdle
+---BackgroundSelected
+---SlotName // Has Component type 'TextMeshProUGUI' set .text to "BELT"
+---ArrowHolder
+----ArrowIcon // Set disable gameobject to remove arrow to match pockets icon
+--Header
+-Slot Panel // Have inactive, like pocket slot
+-Unsearched Panel
+-Special Slot Template //Inactive
+-Speccial Slots Panel Template //Inactive
+-'RigName'(Clone) // Instanciates when an item is equipt, otherwise child element doesn't appear
+
+////////////
+// Steps? //
+////////////
+
+1. Make sure a clone of the item is instanciated when it is equipt in the armband slot.  Will have to override
+default function for armbands to accomplish this  Maybe look at special slots mod code?
+
+2. Child the new clone to the Slot template that is inactive by default
+
+3. Change order of inventory screen to place the slot in the desired location
+
+3. Can't control click to the new slot no matter what is equipt there, maybe figure out?  Stretch goal
+
+/////////////////////
+// Default layouts //
+/////////////////////
+
+Common UI/Common UI/InventoryScreen/Items Panel/LeftSide/Containers Panel/Scrollview Parent/Containers Scrollview/
+Content
+//Children//
+-Slot Template
+-DogtagTemplate
+-CompassTemplate
+-TacticalVest Slot
+-Pockets Slot
+-Backpack Slot
+-SecuredContainer Slot
+
+
+TacticalVest Slot
+-Header Panel
+--SearchPanel
+--SlotViewHeader // Has Component type 'SlotViewHead' with bool 'Interactable = true'
+--Header
+-Slot Panel // Displays equipt item
+--BackImage
+--Background
+--Empty Boarder
+--Full Boarder
+--slot_layout(Clone)(Clone) // Instanciates when an item is equipt, otherwise child element doesn't appear
+--Search Icon
+-Unsearched Panel
+-Special Slot Template //Don't think this is used on this UI element
+-Speccial Slots Panel Template //Don't think this is used on this UI element
+-'RigName'(Clone) // Instanciates when an item is equipt, otherwise child element doesn't appear
+
+Pockets Slot
+-Header Panel
+--SearchPanel
+--SlotViewHeader
+--Header
+-Slot Panel // Not active, makes sense because pockets don't have equipment
+-Unsearched Panel
+-Special Slot Template //Don't think this is used on this UI element
+-Default Grids Template(Clone)
+-Special Slots Panel Template // Special slots are children of the pockets
+
+
+Preloader UI/Preloader UI/UIContext/WindowsPlaceholder/
+Grid Window Template(Clone)(16) or last item
+-Shadow
+-Background
+-Border
+-Caption Panel
+-Unsearched Panel
+-Loader
+-itemname(Clone)(6)
+
+
+//////////////
+// Thoughts //
+//////////////
+
+
+InventoryController.ReplaceInventory has a check to remove armbands from scavs
+
+EquipmentBuildsScreen.EquipmentSlot[].equipmentSlot_1 has a list of the right equipment slots.
+	Could try adding armbands to that list to see what it does at line 636
+	
+ContainersPanel file looks very promising, contains an array of container inventory items 
+	that could have armbands added too it.
+	
+EquipmentBuildlGear
+
+GClass3168 VARY promising looking, includes references to loot prioritization for equipment slots
+
+Components to try adding
+SearchableSlotView
+SearchableItemView
+SearchableView
+HorizontalLayoutGroup
+1
+4
+
+///////////
+// Fixes //
+///////////
+
+-fix transform out of bounds on first load of inventory
+-fix beltToggle not working properly, mainly not resetting the need to refresh the slot grids without changing 
+items.  The same fix will probably fix the issue with switching to an armband then switching back to a belt
+and it not showing the grid.
+-fix beltToggle not fully removing the belt grid elements.
+
+
+
+////////////////
+// EFT Scenes //
+////////////////
+Screentype:  None
+
+Factory:
+	Factory_Rework_Day_Scripts - CHECK
+	Factory_Rework_Night_Scripts - CHECK
+	
+Ground Zero:
+	Sandbox_Scripts - CHECK
+	
+Streets:
+	City_Scripts - CHECK
+	
+Interchange:
+	Shopping_Mall_Scripts - CHECK
+	
+Customs:
+	custom_Scripts - CHECK
+	
+Woods:
+	woods_Scripts - CHECK
+	
+Reserve:
+	Reserve_Base_Scripts - CHECK
+
+Lighthouse:
+	Lighthouse_Scripts - CHECK
+	
+Shoreline:
+	shoreline_scripts - CHECK
+	
+Labs:
+	Laboratory_Scripts - CHECK
+	
+	
+
+////////////////////////
+// Complex Loot Panel //
+////////////////////////
+
+// Looting bodies, Kills seem to disable the update of the belt slot
+Common UI/Common UI/InventoryScreen/Items Panel/Stash Panel/Complex Loot Panel/Containers Scrollview/
+Content
+-Gear Panel Template(Clone)
+-TacticalVet Slot
+-Pockets Slot
+-Backpack Slot
+
+
+
+//////////////////////
+// Insurance Screen //
+//////////////////////
+
+Menu UI/UI/Matchmaker Insurance/ItemsPanel/Complex Loot Panel/Containers Scrollview/
+Content
+-Gear Panel Template(Clone)(0)
+-Gear Panel Template(1)
+-Default Grids Template(2)
+-Container Slot Template(3)
+-CompassTemplate(4)
+-DogtagTemplate(5)
+-TacticalVest Slot(6)
+-Pockets Slot(7)
+-Backpack Slot(8)
+-SecuredContainer Slot(9)
+
+
+/////////////
+// In Raid //
+/////////////
+
+Sometimes doesnt perform the beltslot logic, no idea why.
+Add in a button to fix the issue if it fails to work.
+
+
+/////////////////////////
+// Window Priority Fix //
+/////////////////////////
+
+Preloader UI/Preloader UI/UIContext/WindowsPlaceholer/Grid Window Template(Clone)/Caption Panel/Priority
+-Caption Panel(3)
+--Priority(5)
+ToggleButton.IsOn?
+EFT.UI.ToggleButton Component
+
+ToggleButton.UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(PointerEventData)
