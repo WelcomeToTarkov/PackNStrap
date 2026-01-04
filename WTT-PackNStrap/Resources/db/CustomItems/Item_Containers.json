@@ -244,7 +244,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "toolbag"
+        "LayoutName": "toolbag"
       }
     },
     "locales": {
@@ -366,7 +366,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "docket"
+        "LayoutName": "docket"
       }
     },
     "locales": {
@@ -934,7 +934,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "keyring"
+        "LayoutName": "keyring"
       }
     },
     "locales": {
@@ -1359,7 +1359,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "foodcart"
+        "LayoutName": "foodcart"
       }
     },
     "locales": {
@@ -1467,7 +1467,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "violin"
+        "LayoutName": "violin"
       }
     },
     "locales": {
@@ -1723,7 +1723,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "modcase"
+        "LayoutName": "modcase"
       }
     },
     "locales": {
@@ -1925,7 +1925,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "suitcase"
+        "LayoutName": "suitcase"
       }
     },
     "locales": {
@@ -2197,7 +2197,7 @@
         }
       ],
       "ExtensionData": {
-        "CustomLayoutName": "bigsafe"
+        "LayoutName": "bigsafe"
       }
     },
     "locales": {

@@ -100,7 +100,7 @@
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "ExtensionData": {
-        "CustomLayoutName": "bellforgetoolcase"
+        "LayoutName": "bellforgetoolcase"
       }
     },
     "locales": {
