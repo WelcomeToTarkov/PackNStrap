@@ -7,6 +7,7 @@ using SPTarkov.Server.Core.Services;
 using Range = SemanticVersioning.Range;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Utils;
@@ -108,6 +109,13 @@ public class WTTPackNStrap(
                             continue;
                         }
 
+                        item.Parent = "5448bf274bdc2dfc2f8b456a";
+                        item.Properties?.IsSecured = true;
+                        item.Properties?.CantRemoveFromSlotsDuringRaid = 
+                        [ 
+                            EquipmentSlots.SecuredContainer
+                        ];
+                        
                         var grids = item.Properties?.Grids?.ToList();
                         if (grids?.Count > 0)
                         {
