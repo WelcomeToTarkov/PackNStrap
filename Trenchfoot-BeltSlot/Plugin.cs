@@ -8,6 +8,7 @@ using EFT;
 using EFT.InventoryLogic;
 using EFT.UI;
 using EFT.UI.Screens;
+using PackNStrap.Core.Items;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -293,7 +294,7 @@ public sealed class Plugin : BaseUnityPlugin
     private void RefreshBeltSlot(Slot slot, GameObject targetArmband, GameObject targetBelt)
     {
         var item = slot.ContainedItem;
-        var isBelt = item != null && item.IsContainer;
+        var isBelt = item != null && (item.IsContainer || item is CustomBeltItemClass);
 
         // true = empty/hidden-item visual
         // false = full/shown-item visual
