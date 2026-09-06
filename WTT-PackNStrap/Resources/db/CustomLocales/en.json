@@ -130,5 +130,8 @@
   "6761b213607f9a6f79017b67 Description": "A bio-metric secured pistol carrying case manufactured by Omnitech Systems.",
   "681d2d053de2e15f8b0b5081 Name": "Field Surgeon Secure Container",
   "681d2d053de2e15f8b0b5081 ShortName": "Surgeon",
-  "681d2d053de2e15f8b0b5081 Description": "A securable container designed to safely store and carry a small amount of medical supplies in the field."
+  "681d2d053de2e15f8b0b5081 Description": "A securable container designed to safely store and carry a small amount of medical supplies in the field.",
+  "6a3c0e9643138b61c8739586 Name": "Small ballistic plate case",
+  "6a3c0e9643138b61c8739586 ShortName": "Plates",
+  "6a3c0e9643138b61c8739586 Description": "A small carrying case that can hold several ballistic plates."
 }
