@@ -30,19 +30,19 @@ namespace PackNStrap.Patches
         [PatchPostfix]
         private static void Postfix(InventoryController __instance, ref bool __result, Item item)
         {
+            if (item == null || __instance == null)
+            {
+                __result = false;
+                return;
+            }
+
             if (item is CompoundItem compoundItem && compoundItem.MissingVitalParts.Any())
             {
                 __result = false;
                 return;
             }
 
-            if (!__instance.Examined(item))
-            {
-                __result = false;
-                return;
-            }
-
-            if (!IsValidItemForBinding(item))
+            if (!__instance.Examined(item) || !IsValidItemForBinding(item))
             {
                 __result = false;
                 return;

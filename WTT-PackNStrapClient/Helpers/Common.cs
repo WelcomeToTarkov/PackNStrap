@@ -11,9 +11,10 @@ public abstract class Common
 {
     public static bool IsItemInReachableLocation(Item item, InventoryController controller)
     {
-        var equipment = controller.Inventory.Equipment;
-        if (equipment == null || item == null)
+        if (item == null || controller?.Inventory?.Equipment == null)
             return false;
+
+        var equipment = controller.Inventory.Equipment;
 
         foreach (var slotId in PackNStrap.NewBindAvailableSlots)
         {
@@ -21,17 +22,20 @@ public abstract class Common
             if (root == null)
                 continue;
 
-            if (root == item)
+            if (ReferenceEquals(root, item))
                 return true;
 
-            var rootItems = GetTopLevelItems(root as CompoundItem);
+            if (root is not CompoundItem rootContainer)
+                continue;
+
+            var rootItems = GetTopLevelItems(rootContainer);
 
             if (rootItems.Contains(item))
                 return true;
 
             foreach (var child in rootItems.OfType<CompoundItem>())
             {
-                if (child is Vest || child is Backpack || child is CustomBeltItemClass)
+                if (child is Vest or Backpack or CustomBeltItemClass)
                     continue;
 
                 if (GetTopLevelItems(child).Contains(item))
@@ -44,7 +48,12 @@ public abstract class Common
 
     private static IEnumerable<Item> GetTopLevelItems(CompoundItem container)
     {
-        return new List<CompoundItem> { container }.GetTopLevelItems();
+        if (container == null)
+            return Enumerable.Empty<Item>();
+
+        return new[] { container }
+            .GetTopLevelItems()
+            .Where(x => x != null);
     }
     public static List<CustomContainerItemClass> GetMagDumpPouches(InventoryEquipment equipment, bool backpackIncluded)
     {

@@ -19,6 +19,9 @@ namespace PackNStrap.Patches
         [PatchPostfix]
         private static void Postfix(InventoryController __instance, ref bool __result, Item item)
         {
+            if (__result)
+                return;
+
             __result = Common.IsItemInReachableLocation(item, __instance);
         }
     }
