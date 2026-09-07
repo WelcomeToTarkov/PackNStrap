@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<AssemblyName>$(PluginName)</AssemblyName>
 		<Description>WTT PackNStrap</Description>
-		<Version>2.1.0</Version>
+		<Version>2.1.1</Version>
 		<PluginGuid>com.wtt.packnstrap</PluginGuid>
 		<PluginName>WTT-PackNStrap</PluginName>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
