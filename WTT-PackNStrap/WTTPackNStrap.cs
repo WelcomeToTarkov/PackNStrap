@@ -55,7 +55,7 @@ public class WTTPackNStrap(
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(_assembly);
         wttCommon.CustomRigLayoutService.CreateRigLayouts(_assembly);
         await wttCommon.CustomLocaleService.CreateCustomLocales(_assembly);
-
+        PreventBeltsFromBeingNested();
         ApplyConfigSettings();
     }
 
@@ -113,6 +113,34 @@ public class WTTPackNStrap(
                                 filters.Filter.Add((MongoId)caseId);
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    private void PreventBeltsFromBeingNested()
+    {
+        var beltIds = BeltIds.Items
+            .Select(static id => (MongoId)id)
+            .ToHashSet();
+
+        foreach (var beltId in BeltIds.Items)
+        {
+            if (!_itemsDb.TryGetValue(beltId, out var belt))
+            {
+                continue;
+            }
+
+            foreach (var grid in belt.Properties?.Grids ?? [])
+            {
+                foreach (var filter in grid.Properties?.Filters ?? [])
+                {
+                    filter.ExcludedFilter ??= [];
+
+                    foreach (var itemId in beltIds)
+                    {
+                        filter.ExcludedFilter.Add(itemId);
                     }
                 }
             }
